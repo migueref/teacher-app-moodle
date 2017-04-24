@@ -1,0 +1,19 @@
+{
+    "appsettings": "Configuración de la aplicación",
+    "changesite": "Cambiar de sitio",
+    "help": "Ayuda",
+    "logout": "Salir",
+    "mycourses": "Mis cursos",
+    "payments": "Pagos",
+    "forums": "Foros",
+    "assignments": "Tareas",
+    "feedback": "Retroalimentación",
+    "alerts": "Alertas",
+    "groups": "Grupos",    
+    "bills": "Facturas",
+    "desertion": "Deserción",
+    "admin": "Administración",
+    "settings": "Ajustes",
+    "togglemenu": "Cambiar menú",
+    "website": "Página web"
+}

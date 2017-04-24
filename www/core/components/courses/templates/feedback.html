@@ -1,0 +1,26 @@
+<ion-view view-title="{{ 'mm.sidemenu.feedback' | translate }}">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-pane>
+        <ion-content class="">
+          <a menu-close class="item item-icon-left" ui-sref="site.assignments" title="{{ 'mod_feedback' | translate}}">
+              <i class="icon ion-android-notifications-none"></i>{{ 'mm.sidemenu.assignments' | translate }}
+          </a>
+    			<div class="card" ng-if="mdl_assigns!='false'" ng-repeat="assign in mdl_assigns" >
+          	<ion-list>
+          		<ion-item class="item-avatar">
+        			<img src="./img/cife-logo.jpg">
+              <!-- <h2><a href="https://www.cife.edu.mx/ecampus/mod/assign/view.php?id={{assign.linkToMoodle}}"><b>{{assign.shortname+" "+assign.name}}</b></a></h2> -->
+              <h2><a ui-sref="site.mm_course({courseid: assign.idCourse, coursefullname: assign.fullname})" title="{{assign.fullname}}"><b>{{assign.shortname+" "+assign.name}}</b></a></h2>
+              </ion-item>
+              <ion-item class="item item-body">
+                <img class="full-image" src="./img/assignments.jpg">
+                <b class="medium-text col-xs-12" ng-bind-html='get_html(assign.commenttext)'></b>
+
+              </ion-item>
+            </ion-list>
+    			</div>
+        </ion-content>
+      </ion-pane>
+    </ion-content>
+</ion-view>

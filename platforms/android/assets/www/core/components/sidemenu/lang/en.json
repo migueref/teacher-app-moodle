@@ -1,0 +1,18 @@
+{
+    "appsettings": "App settings",
+    "help": "Help",
+    "payments": "Payments",
+    "assignments": "Assignments",
+    "forums": "Forums",
+    "bills": "Bills",
+    "feedback": "Feedback",
+    "alerts": "Alerts",
+    "desertion": "Desertion",
+    "admin": "Administration",
+    "settings": "Settings",
+    "changesite": "Change site",
+    "logout": "Log out",
+    "mycourses": "My courses",
+    "togglemenu": "Toggle menu",
+    "website": "Website"
+}

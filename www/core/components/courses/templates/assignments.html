@@ -1,0 +1,30 @@
+<ion-view view-title="{{ 'mm.sidemenu.assignments' | translate }}">
+    <ion-content padding="true">
+
+      <!-- {{message}} -->
+      <ion-pane>
+        <ion-content class="">
+          <a menu-close class="item item-icon-left" ui-sref="site.feedback" title="{{ 'mod_feedback' | translate}}">
+              <i class="icon ion-ios-bookmarks-outline"></i>{{ 'mm.sidemenu.feedback' | translate }}
+          </a>
+    			<div class="card" ng-repeat="assign in mdl_upcomingAssigns" >
+          	<ion-list>
+          		<ion-item class="item-avatar">
+        			<img src="./img/cife-logo.jpg">
+              <!-- <h2><a href="https://www.cife.edu.mx/ecampus/mod/assign/view.php?id={{assign.linkToMoodle}}"><b>{{assign.shortname}} - {{assign.assign}}</b></a></h2> -->
+              <h2><a ui-sref="site.mm_course({courseid: assign.id, coursefullname: assign.fullname})" title="{{assign.fullname}}"><b>{{assign.shortname}} - {{assign.assign}}</b></a></h2>
+              <p>Fecha límite: {{assign.DateofPost}}</p>
+              </ion-item>
+              <ion-item class="item item-body">
+                <img class="full-image" src="./img/assignments.jpg">
+                <b class="medium-text col-xs-12" ng-bind-html='get_html(assign.commenttext)'></b>
+                <p>
+                  <a class="subdued" href="http://cife.edu.mx/ecampus/mod/forum/discuss.php?d={{forum.idForumDiscussion}}">{{idForumDiscussion+forum.DiscussionName}}</a>
+                </p>
+              </ion-item>
+            </ion-list>
+    			</div>
+        </ion-content>
+      </ion-pane>
+    </ion-content>
+</ion-view>

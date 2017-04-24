@@ -1,0 +1,104 @@
+<ion-view view-title="{{ 'mm.sidemenu.bills' | translate }}">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-item ng-controller="mmPaymentsCtrl">
+        <h4>Facturación</h4>
+        <form name='upload' ng-submit='newBill()'>
+          <ion-label>Seleccione cuenta de facturación: </ion-label>
+          <div class="select full-width">
+            <select class='form-control' ng-change='loadFederalInfo(finfo.key)' ng-model='frm_bill.federal' ng-options='finfo.key for finfo in federal track by finfo.key' required=''>
+              <option value=''>Selecciona tu cuenta de facturación</option>
+            </select>
+          </div>
+          <ion-label>Seleccione el pago deseado: </ion-label>
+          <div class="select full-width">
+            <select class='form-control' ng-model='frm_rpayment.course' ng-options='rpayment.name for rpayment in rpayments' required=''>
+                    <option value=''>Pagos generados</option>
+            </select>
+          </div>
+          <ion-label>Sube tu comprobante de pago</ion-label>
+          <div class=" full-width">
+            <input hidden='' ng-model='name' type='text'>
+            <input id='file' name='file' type='file' uploader-model='file'>
+          </div>
+          <!-- Confirm federal bill data -->
+          <div class='author'>
+                <h4 class='title'>
+                  Datos de facturación
+                  <div class='col-xs-12'>
+                    <small>*Con estos datos se le generará la factura, verifique el monto, el curso y sus datos.</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_rpayment.course'>
+                    <h4>{{frm_rpayment.course.name}}</h4>
+                    <small>{{frm_rpayment.course.amountmx | currency : symbol : fractionSize}}</small>
+                  </div>
+                  <hr>
+                  <div class='form-group' ng-show='frm_bill.federal.key'>
+
+                      <label>Clave del rfc:</label>
+                      <small>{{frm_bill.federal.key}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.registered_name'>
+
+                      <label>Nombre o razón social:</label>
+                      <small>{{frm_bill.federal.registered_name}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.country.pais'>
+
+                      <label>País:</label>
+                      <small>{{frm_bill.federal.country.pais}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.state'>
+
+                      <label>Estado:</label>
+                      <small>{{frm_bill.federal.state}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.city'>
+
+                      <label>Ciudad:</label>
+                      <small>{{frm_bill.federal.city}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.neighborhood'>
+
+                      <label>Colonia:</label>
+                      <small>{{frm_bill.federal.neighborhood}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.street'>
+
+                      <label>Calle:</label>
+                      <small>{{frm_bill.federal.street}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.external'>
+
+                      <label>N° Exterior:</label>
+                      <small>{{frm_bill.federal.external}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.internal'>
+
+                      <label>N° Interior:</label>
+                      <small>{{frm_bill.federal.internal}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.cp'>
+
+                      <label>N° Código postal:</label>
+                      <small>{{frm_bill.federal.cp}}</small>
+                  </div>
+                  <div class='form-group' ng-show='frm_bill.federal.email'>
+
+                      <label>Email de facturación:</label>
+                      <small>{{frm_bill.federal.email}}</small>
+                  </div>
+                </h4>
+              </div>
+          <!-- submit button to send bill data -->
+          <div class="full-width">
+            <input type="submit" class="btn blue full-width"value="Aceptar">
+          </div>
+
+        </form>
+      </ion-item>
+      <ion-item>
+
+      </ion-item>
+    </ion-content>
+</ion-view>

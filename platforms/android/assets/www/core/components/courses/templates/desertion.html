@@ -1,0 +1,42 @@
+<ion-view view-title="{{ 'mm.sidemenu.desertion' | translate }}">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-item>
+        <form ng-submit="desertion(baja)">
+          <ion-label>Tipo de baja: </ion-label>
+          <div class="select full-width">
+            <select class="form-control slct" ng-model="baja.tipo_baja" required>
+  					  <option value="">Seleccione tipo de baja</option>
+  						<option value="1">Baja temporal</option>
+  						<option value="2">Baja definitiva</option>
+  				  </select>
+          </div>
+          <ion-label>Programa: </ion-label>
+          <div class="select full-width">
+            <select class="form-control"
+  						ng-model="baja.programa"
+  						ng-options="course.coursename for course in courses track by course.idAcademic_details"required>
+  						<option value=''>Seleccione su programa</option>
+  					</select>
+          </div>
+          <ion-label>Razones para solicitar esta baja:</ion-label>
+          <div class="full-width">
+            <textarea name="name" class="form-control" ng-model="baja.razones" rows="8" cols="80"required></textarea>
+          </div>
+          <ion-label>Tengo las siguientes sugerencias para cife</ion-label>
+          <div class="full-width">
+            <textarea name="name" class="form-control" ng-model="baja.sugerencias" required></textarea>
+          </div>
+          <div class="form-group col-md-6"ng-if="baja.tipo_baja==1">
+            <ion-label>Me comprometo a reingresar el semestre</ion-label>
+            <div class="full-width">
+              <textarea name="name" class="form-control"ng-model="baja.compromiso" required></textarea>
+            </div>
+          </div>
+          <div class="full-width">
+            <input type="submit" class="btn blue full-width"value="Aceptar">
+          </div>
+        </form>
+      </ion-item>
+    </ion-content>
+</ion-view>

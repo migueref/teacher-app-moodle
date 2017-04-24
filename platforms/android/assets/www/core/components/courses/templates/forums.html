@@ -1,0 +1,25 @@
+<ion-view view-title="{{ 'mm.sidemenu.forums' | translate }}">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-pane>
+        <ion-content class="">
+    			<div class="card" ng-repeat="forum in mdl_forums" >
+          	<ion-list>
+          		<ion-item class="item-avatar">
+        			<img src="./img/cife-logo.jpg">
+              <h2><b><a href="http://cife.edu.mx/ecampus/mod/forum/discuss.php?d={{forum.idForumDiscussion}}#p{{forum.idPost}}" class="">{{forum.subject}}</a> de {{forum.firstname+" "+forum.lastname}}</b></h2>
+              <p><a class="" href="http://cife.edu.mx/ecampus/mod/forum/view.php?id={{forum.courseModule}}"> {{forum.ForumName}}</a></p>
+              </ion-item>
+              <ion-item class="item item-body">
+                <img class="full-image" src="./img/forum.jpg">
+                <p class="medium-text col-xs-12" ng-bind-html='get_html(forum.message)'></p>
+                <p>
+                  <a class="subdued" href="http://cife.edu.mx/ecampus/mod/forum/discuss.php?d={{forum.idForumDiscussion}}">{{idForumDiscussion+forum.DiscussionName}}</a>
+                </p>
+              </ion-item>
+            </ion-list>
+    			</div>
+        </ion-content>
+      </ion-pane>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,91 @@
+<ion-view view-title="{{ 'mm.sidemenu.payments' | translate }}">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-item>
+        <ion-label>Pagos generados</ion-label>
+        <div class="select full-width">
+          <select id="slct" class='form-control' ng-model='frm_rpayment.course' ng-options='rpayment.name for rpayment in rpayments' required=''>
+                <option value=''>Pagos generados</option>
+          </select>
+        </div>
+        <div class='content to-bottom'>
+            <div class='author'>
+              <h4 class='title'>
+                Información de pago solicitado
+                <br>
+                <a href='#'>
+                  <small>{{frm_rpayment.course.name}}</small>
+                </a>
+              </h4>
+            </div>
+            <div class='col-xs-12'>
+              <br>
+              <p ng-show='frm_rpayment.course'><b>Pago para mexicanos:</b> {{frm_rpayment.course.amountmx}}MXN </p>
+              <p class='description text-center' ng-show='frm_rpayment.course'></p>
+              <div class='col-xs-6'>
+                <a href='' ng-click='GenerateReport(frm_rpayment.course)'>
+                  <img class='col-xs-12' ng-show='frm_rpayment.course' ng-src='https://www.cife.edu.mx/admin/public/files/{{frm_rpayment.course.bankname}}.png'>
+                </a>
+              </div>
+              <div class='col-xs-6'>
+                <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+                  <input name='cmd' type='hidden' value='_xclick'>
+                  <input name='business' type='hidden' value='Contacto@cife.edu.mx'>
+                  <input name='item_name' type='hidden' value='{{frm_rpayment.course.name}}'>
+                  <input name='item_number' type='hidden' value='{{frm_rpayment.course.idPayment}}'>
+                  <input name='currency_code' type='hidden' value='MXN'>
+                  <input name='no_note' type='hidden' value='1'>
+                  <input name='no_shipping' type='hidden' value='1'>
+                  <input name='amount' type='hidden' value='{{frm_rpayment.course.amountmx}}'>
+                  <input name='return' type='hidden' value='http://www.cife.edu.mx/'>
+                  <input name='cancel_return' type='hidden' value='http://www.cife.edu.mx/'>
+                  <input alt='Submit' border='0' class='col-xs-12' ng-show='frm_rpayment.course' ng-src='https://www.cife.edu.mx/admin/public/files/paypal.png' type='image'>
+                </form>
+              </div>
+              <p ng-show='frm_rpayment.course'><b>Pago para extranjeros:</b> {{frm_rpayment.course.amountusd}}USD </p>
+              <div class='col-xs-6'>
+                <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+                  <input name='cmd' type='hidden' value='_xclick'>
+                  <input name='business' type='hidden' value='payments@cife.us'>
+                  <input name='item_name' type='hidden' value='{{frm_rpayment.course.name}}'>
+                  <input name='item_number' type='hidden' value='{{frm_rpayment.course.idPayment}}'>
+                  <input name='currency_code' type='hidden' value='USD'>
+                  <input name='no_note' type='hidden' value='1'>
+                  <input name='no_shipping' type='hidden' value='1'>
+                  <input name='amount' type='hidden' value='{{frm_rpayment.course.amountusd}}'>
+                  <input name='return' type='hidden' value='http://www.cife.edu.mx/'>
+                  <input name='cancel_return' type='hidden' value='http://www.cife.edu.mx/'>
+                  <input alt='Submit' border='0' class='col-xs-12' ng-show='frm_rpayment.course' ng-src='https://www.cife.edu.mx/admin/public/files/paypal.png' type='image'>
+                </form>
+              </div>
+            </div>
+          </div>
+      </ion-item>
+      <ion-item>
+        <ion-label>Proceso de pago</ion-label>
+        <form name='upload' ng-submit='generatePayment(siteinfo.username,frm_payment.course)'>
+          <div class="select full-width">
+            <select id="slct" class='form-control' ng-model='frm_payment.course' ng-options="(payment.name+' '+(payment.amountmx| currency : symbol : fractionSize)) for payment in payments_user" required=''>
+                <option value=''>Selecciona el pago deseado</option>
+            </select>
+          </div>
+          <input type="submit" class="btn blue full-width"value="Aceptar">
+
+        </form>
+
+      </ion-item>
+      <ion-item>
+        <ion-label>Otros pagos </ion-label>
+        <form name='upload' ng-submit='generatePayment(siteinfo.username,frm_payment.course)'>
+          <div class="select full-width">
+              <select id="slct" class='form-control' ng-model='frm_payment.course' ng-options="(payment.name+' '+(payment.amountmx| currency : symbol : fractionSize)) for payment in payments" required=''>
+                   <option value=''>Seleccione pago</option>
+              </select>
+
+          </div>
+          <input type="submit" class="btn blue full-width"value="Aceptar">
+        </form>
+      </ion-item>
+
+    </ion-content>
+</ion-view>
