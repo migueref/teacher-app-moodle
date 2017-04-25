@@ -27,7 +27,7 @@
                 <ul class="list dark">
                     <li ng-if="showMyCourses" class="mm-mycourses-handler">
                         <a menu-close class="item item-icon-left" ui-sref="site.mm_courses" title="{{ 'mm.sidemenu.mycourses' | translate}}">
-                            <i class="icon ion-ionic"></i>{{ 'mm.sidemenu.mycourses' | translate}}
+                            <i class="icon ion-university"></i>{{ 'mm.sidemenu.mycourses' | translate}}
                         </a>
                     </li>
                     <li class="item text-center" ng-if="(!handlers || !handlers.length) && !areNavHandlersLoaded()">
@@ -61,7 +61,7 @@
                     <li class="item item-divider">{{ 'mm.sidemenu.alerts' | translate}}</li>
                     <li>
                         <a menu-close class="item item-icon-left" ui-sref="site.forums" title="{{ 'mm.sidemenu.forums' | translate}}">
-                            <i class="icon ion-android-chat"></i>{{ 'mm.sidemenu.forums' | translate}}
+                            <i class="icon ion-chatbubbles"></i>{{ 'mm.sidemenu.forums' | translate}}
                         </a>
                     </li>
                     <li>
@@ -107,15 +107,18 @@
     </ion-side-menu>
 </ion-side-menus>
 <ion-tabs class="tabs-icon-top tabs-positive">
-  <msg ng-repeat="handler in handlers | orderBy:'-priority'" ng-controller="handler.controller">
-    <a ng-if="state=='site.messages' || state=='site.calendar'" ui-sref="{{state}}" class="white-text tab ">
-      <i class="icon-tab icon {{icon}} "></i><br>
-    </a>
-  </msg>  
   <a ui-sref="site.forums" class="white-text tab">
-    <i class="icon ion-chatbox icon-tab"></i><br>
+    <i class="icon ion-chatbubbles icon-tab"></i><br>
   </a>
   <a ui-sref="site.assignments" class="white-text ">
     <i class="icon ion-ios-bookmarks icon-tab"></i><br>
   </a>
+  <a ui-sref="site.mm_courses" class="white-text tab">
+    <i class="icon ion-university  icon-tab"></i><br>
+  </a>
+  <msg ng-repeat="handler in handlers | orderBy:'-priority'" ng-controller="handler.controller">
+    <a ng-if="state=='site.calendar'" ui-sref="{{state}}" class="white-text">
+      <i class="icon-tab icon {{icon}} "></i><br>
+    </a>
+  </msg>
 </ion-tabs>
