@@ -8,12 +8,20 @@
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\res\\xml\\config.xml"
     },
     {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodlemobile2\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodlemobile2\\platforms\\android\\res\\xml\\config.xml"
     },
     {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodlemobile2\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodlemobile2\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\xml\\config.xml"
     },
     {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",

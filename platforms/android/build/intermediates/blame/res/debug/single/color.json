@@ -8,12 +8,20 @@
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodlemobile2\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",

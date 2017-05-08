@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\res\\drawable-port-mdpi\\screen.png"
     },
     {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi-v4\\screen.png",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi-v4\\screen.png",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\res\\drawable-port-mdpi\\screen.png"
     },

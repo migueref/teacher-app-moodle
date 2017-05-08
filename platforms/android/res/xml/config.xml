@@ -82,7 +82,7 @@
     <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
     <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
     <name>CIFE Móvil</name>
-    <description>Official Cife Mobile app</description>
+    <description>Official Cife Mobile app for teachers</description>
     <author email="reafmiguel@gmail.com" href="httpw://linkedin.com/in/migueref/">Miguel Rea</author>
     <content src="index.html" />
     <access origin="*" />

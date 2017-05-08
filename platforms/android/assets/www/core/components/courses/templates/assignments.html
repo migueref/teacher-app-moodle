@@ -11,7 +11,8 @@
           	<ion-list>
           		<ion-item class="item-avatar">
         			<img src="./img/cife-logo.jpg">
-              <h2><a href="https://www.cife.edu.mx/ecampus/mod/assign/view.php?id={{assign.linkToMoodle}}"><b>{{assign.shortname}} - {{assign.assign}}</b></a></h2>
+              <!-- <h2><a href="https://www.cife.edu.mx/ecampus/mod/assign/view.php?id={{assign.linkToMoodle}}"><b>{{assign.shortname}} - {{assign.assign}}</b></a></h2> -->
+              <h2><a ui-sref="site.mm_course({courseid: assign.id, coursefullname: assign.fullname})" title="{{assign.fullname}}"><b>{{assign.shortname}} - {{assign.assign}}</b></a></h2>
               <p>Fecha límite: {{assign.DateofPost}}</p>
               </ion-item>
               <ion-item class="item item-body">

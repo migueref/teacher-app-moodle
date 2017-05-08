@@ -8506,6 +8506,24 @@ em {
   .item-media.item-button-right > .button, .item-media.item-button-right > .buttons, .item-media.item-button-right > .spinner {
     top: 16px; }
 
+.big-card {
+  height: 20vh; }
+
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
+.left-padding {
+  padding-left: 15px !important; }
+
 .item.item-howto, .mm-grades-table .item-howto.itemcenter {
   padding-bottom: 12px;
   padding: 9px;

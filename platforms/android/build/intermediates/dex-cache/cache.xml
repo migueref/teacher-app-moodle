@@ -2,32 +2,81 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_43c403bc1b92785a135f98234cdcd27ed90fd152.jar" />
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.4.0_9352ecabfd075e2dba134e637235575c2f49d982.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_41def45da0aff3aa24d31de801bc4eb9be891464.jar" />
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_3a691668c4f0c4d0a0b0878e1f19904aceb0368a.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
         sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.8.0_9ee9cfd4e89e40472f0330497fec6dd74def1962.jar" />
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.8.0_096eec18925218fa5fca8e88725300f8e158f5fb.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_2a471324a7b781365454950d69e6fbb8c505851b.jar" />
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_cbf04637c8ccdaedc2d25a5bc4d5492e7d7dbb76.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_9d0d4cf9138a175d36a0449b2069bbdfe890dfc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\me.leolin-ShortcutBadger-1.1.4_858a03249ed27554a58b946cd385a236dd4965b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_5d6eadd27ee1ae3bc79ad824994144469e68325b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f168c98fbe98bae35a0766f6431897ced6539b77.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="62d0e90d2d7e9e6eea605ac9897eb9c442b31605">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_d37f33eaf0756ae3e13ca36e12438f506f65b69b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b7fb87431e8ba28734ab302356ee2581ad671273.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_f493bebb9dbaf3db1f7780fc5d5989f89c862356.jar" />
     </item>
     <item
         jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
@@ -44,67 +93,32 @@
         <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_eb55cc5d18d935899a8cf2dda2a68e812d0c5387.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_4c0ff5513fc7bb1357cbab78d9820975476151e6.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_41def45da0aff3aa24d31de801bc4eb9be891464.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
         sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.4.0_9352ecabfd075e2dba134e637235575c2f49d982.jar" />
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.4.0_a4ada0384ec4dc4f94c02fde594adf358f66fdd3.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.8.0_31ccff33c1144542e04b461dd9a06520703256e6.jar" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_d06209b9c85fc0c8ce44dc990e54e39f7bc7caf7.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\me.leolin-ShortcutBadger-1.1.4_858a03249ed27554a58b946cd385a236dd4965b0.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="24.0.3"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_d954098cc684bb79d62cec00ddb991562749d247.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="24.0.3"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_5d6eadd27ee1ae3bc79ad824994144469e68325b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        revision="24.0.3"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_8b3808a5440de9ec7fddb34cfeaaa0966803c1b2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
-        jumboMode="false"
-        revision="24.0.3"
-        sha1="62d0e90d2d7e9e6eea605ac9897eb9c442b31605">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_d37f33eaf0756ae3e13ca36e12438f506f65b69b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="24.0.3"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_22ff393553a8737e36e0c039ff39a02072aa880c.jar" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_d37d7973e79b0e15c112827990f5356a028f974b.jar" />
     </item>
     <item
         jar="C:\Users\Cife1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
@@ -114,11 +128,11 @@
         <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_c912e789070874c5e51b54b6469b6852d3704b5e.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f168c98fbe98bae35a0766f6431897ced6539b77.jar" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_4dcaa7723c31c5a2abff948d42b30ff800c9b899.jar" />
     </item>
     <item
         jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
@@ -135,6 +149,104 @@
         <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_e839dfcc0916265b4fd07632a8fdb8159b897b54.jar" />
     </item>
     <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_8b9e8597a0484d94ff338223f3e7047d3cdb69ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_2a471324a7b781365454950d69e6fbb8c505851b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_d954098cc684bb79d62cec00ddb991562749d247.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_c2ee56139dc1dbb89d64bf3e6cf805cb889f8a32.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.8.0_9ee9cfd4e89e40472f0330497fec6dd74def1962.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_4c0ff5513fc7bb1357cbab78d9820975476151e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_118274cbfacddafea65983bb973e705371dc980e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.8.0_31ccff33c1144542e04b461dd9a06520703256e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\me.leolin-ShortcutBadger-1.1.4_1740d9a81ea957c9518dea89f837cf91c35f5c98.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_07164bda79fa6fb76c2a1100e637598d32ff5844.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_f76071f03d6e5c016fa5c626e22ea79501b9f708.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d89e60fa15067c60bf3c09b382cbcc3b725daff0">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_9e95c13b3a5f0b44a97b7765febd6c270e5d40f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_483186b39234da379b19ef00f156908b1da098bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_43c403bc1b92785a135f98234cdcd27ed90fd152.jar" />
+    </item>
+    <item
         jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
         jumboMode="false"
         revision="24.0.3"
@@ -142,11 +254,39 @@
         <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_6584a55cca348f722c20a7a89400262ef2321d3a.jar" />
     </item>
     <item
-        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
         revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b7fb87431e8ba28734ab302356ee2581ad671273.jar" />
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_8b3808a5440de9ec7fddb34cfeaaa0966803c1b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_64d92510df0918fc4e3eb614cac0e059f10f92f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-estudiante\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_22ff393553a8737e36e0c039ff39a02072aa880c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.8.0_8ecf2ca7386e2228e0553ee55c0e0602c1dcd514.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Cife1\Desktop\moodle\moodle-docente\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_7f149a9369964c10542a6079408632d76b7bbacd.jar" />
     </item>
 
 </items>

@@ -73,6 +73,15 @@ angular.module('mm.core.courses', ['mm.core.contentlinks'])
             }
         }
     })
+    .state('site.groups', {
+        url: '/mm_groups',
+        views: {
+            'site': {
+                templateUrl: 'core/components/courses/templates/groups.html',
+                controller: 'mmGroupsCtrl'
+            }
+        }
+    })
     .state('site.assignments', {
         url: '/mm_assignments',
         views: {

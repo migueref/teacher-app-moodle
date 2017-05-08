@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\res\\drawable-land-xhdpi\\screen.png"
     },
     {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi-v4\\screen.png",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi-v4\\screen.png",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-estudiante\\platforms\\android\\res\\drawable-land-xhdpi\\screen.png"
     }

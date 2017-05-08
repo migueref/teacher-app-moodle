@@ -8,7 +8,7 @@
             	<ion-list>
             		<ion-item class="item-avatar">
           			<img src="./img/cife-logo.jpg">
-                <h2><b><a href='#/profesor_curso/{{request.id}}' class="">{{request.fullname}}</a></b></h2>
+                <h2><b><a  ui-sref="site.teacher_course({ courseId: request.id })" class="">{{request.fullname}}</a></b></h2>
                 <p>{{request.firstname}} {{request.lastname}}</p>
                 </ion-item>
                 <ion-item class="item item-body">

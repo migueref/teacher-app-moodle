@@ -10,5 +10,9 @@
     {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi-v4\\screen.png",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi-v4\\screen.png",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\drawable-land-ldpi\\screen.png"
     }
 ]

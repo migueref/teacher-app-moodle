@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon.png",
+        "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-docente\\platforms\\android\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon.png",
         "source": "C:\\Users\\Cife1\\Desktop\\moodle\\moodle-app\\platforms\\android\\res\\drawable-xxxhdpi\\icon.png"
     },

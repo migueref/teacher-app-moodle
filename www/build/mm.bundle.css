@@ -8506,6 +8506,24 @@ em {
   .item-media.item-button-right > .button, .item-media.item-button-right > .buttons, .item-media.item-button-right > .spinner {
     top: 16px; }
 
+.big-card {
+  height: 20vh; }
+
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
+.left-padding {
+  padding-left: 15px !important; }
+
 .item.item-howto, .mm-grades-table .item-howto.itemcenter {
   padding-bottom: 12px;
   padding: 9px;
@@ -9615,24 +9633,6 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
   outline: none;
   z-index: 100; }
 
-.mm-mm_login_sites .item-thumbnail-left .item-content {
-  padding-top: 16px;
-  padding-right: 16px; }
-.mm-mm_login_sites .list-left-editing .item-thumbnail-left .item-content {
-  padding-right: 49px; }
-.mm-mm_login_sites .avatar {
-  margin: 0;
-  width: 80px;
-  height: 80px;
-  max-width: 80px;
-  max-height: 80px;
-  border-radius: 50%;
-  padding: 4px;
-  border: 1px solid #ddd; }
-
-.mm-login-sitepolicy-iframe {
-  height: 300px; }
-
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mm-grades-container {
@@ -9764,6 +9764,24 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
 
 .mm-question-warning, p.mm-question-warning, .item .mm-question-warning, .mm-grades-table .itemcenter .mm-question-warning {
   color: #c00; }
+
+.mm-mm_login_sites .item-thumbnail-left .item-content {
+  padding-top: 16px;
+  padding-right: 16px; }
+.mm-mm_login_sites .list-left-editing .item-thumbnail-left .item-content {
+  padding-right: 49px; }
+.mm-mm_login_sites .avatar {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid #ddd; }
+
+.mm-login-sitepolicy-iframe {
+  height: 300px; }
 
 #mm-settings-languagelabel {
   color: #000; }
@@ -10181,24 +10199,6 @@ p.mma-mod-quiz-warning {
   .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .mm-grades-table .mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .platform-android .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-android .mm-grades-table .mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .mm-grades-table .platform-android .mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .platform-ios .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-ios .mm-grades-table .mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .mm-grades-table .platform-ios .mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .mma-mod-quiz-table .item.row.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .mma-mod-quiz-table .mm-grades-table .row.mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page), .mm-grades-table .mma-mod-quiz-table .row.mma-mod-quiz-selected.itemcenter:not(.mma-mod-quiz-last-of-page) {
     border-bottom: 0; }
 
-.mma-mod_survey-darkbg {
-  background-color: #f1f1f1; }
-
-.mma-mod_survey-padding-top {
-  padding-top: 20px; }
-
-textarea.mma-mod_survey-textarea {
-  height: 100px;
-  border: 1px solid #ddd; }
-
-select.mma-mod_survey-select {
-  background-color: transparent;
-  padding-left: 0px;
-  padding-right: 32px;
-  max-width: 100%; }
-  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
-    display: none; }
-
 .mma-scorm-level-0 {
   padding-left: 16px; }
 
@@ -10275,6 +10275,24 @@ ion-popover-view {
 .platform-ios ion-popover-view.mma-scorm-popover {
   padding-top: 10px;
   padding-bottom: 10px; }
+
+.mma-mod_survey-darkbg {
+  background-color: #f1f1f1; }
+
+.mma-mod_survey-padding-top {
+  padding-top: 20px; }
+
+textarea.mma-mod_survey-textarea {
+  height: 100px;
+  border: 1px solid #ddd; }
+
+select.mma-mod_survey-select {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 32px;
+  max-width: 100%; }
+  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
+    display: none; }
 
 .wiki-toc {
   border: 1px solid #bbb;
