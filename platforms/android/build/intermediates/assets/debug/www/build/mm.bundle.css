@@ -8330,6 +8330,9 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+ion-nav, ion-tab, ion-tabs {
+  display: block; }
+
 .button.active, .button.activated {
   background-color: #387ef5;
   box-shadow: none;
@@ -9836,6 +9839,12 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
 .mma-messages-date, .mma-messages-unreadfrom {
   text-align: center;
   margin-top: 10px; }
+
+.mma-chat-input-inset.item-input-inset {
+  margin-bottom: 50px; }
+
+.mma-messages-input-inset.item-input-inset {
+  margin-bottom: 50px; }
 
 .mma-messages-unreadfrom {
   color: #387ef5; }

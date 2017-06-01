@@ -1,0 +1,32 @@
+<ion-view view-title="Tareas no calificadas">
+    <ion-content padding="true">
+      <!-- {{message}} -->
+      <ion-pane>
+        <ion-content class="">
+    			<div class="card" >
+            <div class="card" ng-repeat='request in requests| filter:frm_coursename.name | orderBy: request.created_at' >
+            	<ion-list>
+            		<ion-item class="item-avatar">
+          			<img src="./img/cife-logo.jpg">
+                <h2><b><a href='#/profesor_curso/{{request.id}}' class="">{{request.fullname}}</a></b></h2>
+                <p>{{request.UserName}} {{request.GradeMax}} {{request.timemodified | date}}</p>
+                </ion-item>
+                <ion-item class="item item-body">
+                  <p class="medium-text col-xs-12" ng-bind-html='get_html(forum.message)'></p>
+                  <p>
+                    {{request.Course}} - {{request.Assignment}}
+                  </p>
+                  <td>{{request.Course}}</td>
+                      <td>{{request.Assignment}}</td>
+                      <td>{{request.UserName}}</td>
+                      <td>{{request.GradeMax}}</td>
+                      <td>{{request.timemodified | date}}</td>
+                </ion-item>
+              </ion-list>
+      			</div>
+
+    			</div>
+        </ion-content>
+      </ion-pane>
+    </ion-content>
+</ion-view>

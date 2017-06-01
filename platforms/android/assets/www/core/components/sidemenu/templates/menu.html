@@ -69,6 +69,11 @@
                             <i class="icon ion-android-notifications-none"></i>{{ 'mm.sidemenu.assignments' | translate}}
                         </a>
                     </li>
+                    <li>
+                        <a menu-close class="item item-icon-left" ui-sref="site.groups" title="{{ 'mm.sidemenu.groups' | translate}}">
+                            <i class="icon ion-chatbubbles"></i>{{ 'mm.sidemenu.groups' | translate}}
+                        </a>
+                    </li>
                     <li class="item item-divider">{{ 'mm.sidemenu.admin' | translate}}</li>
                     <li>
                         <a menu-close class="item item-icon-left" ui-sref="site.payments" title="{{ 'mm.sidemenu.payments' | translate}}">
@@ -107,6 +112,11 @@
     </ion-side-menu>
 </ion-side-menus>
 <ion-tabs class="tabs-icon-top tabs-positive">
+  <msg ng-repeat="handler in handlers | orderBy:'-priority'" ng-controller="handler.controller">
+    <a ng-if="state=='site.messages' " ui-sref="{{state}}" class="white-text tab ">
+      <i class="icon-tab icon {{icon}} "></i><br>
+    </a>
+  </msg>
   <a ui-sref="site.forums" class="white-text tab">
     <i class="icon ion-chatbubbles icon-tab"></i><br>
   </a>

@@ -82,6 +82,15 @@ angular.module('mm.core.courses', ['mm.core.contentlinks'])
             }
         }
     })
+    .state('site.teacher_course', {
+        url: '/mm_teacher_course/{courseId}',
+        views: {
+            'site': {
+                templateUrl: 'core/components/courses/templates/teacher_course.html',
+                controller: 'mmTeacherCtrl'
+            }
+        }
+    })
     .state('site.assignments', {
         url: '/mm_assignments',
         views: {

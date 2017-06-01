@@ -2025,10 +2025,21 @@ $mma-messages-date-badge: "stable" !default;
     @extend .badge-#{$mma-messages-date-badge};
   }
 }
+// ion-nav, ion-tab, ion-tabs {
+//   display:none;
+// }
+.mma-chat-input-inset.item-input-inset {
+  margin-bottom: 50px;
+
+}
+.mma-messages-input-inset.item-input-inset {
+  margin-bottom: 50px;
+}
 
 .mma-messages-unreadfrom {
   color: $positive;
 }
+
 
 .mma-messages-input-inset {
     padding-top: 0;
